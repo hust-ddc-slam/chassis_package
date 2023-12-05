@@ -1,9 +1,10 @@
-# chassis_info_reader
+# chassis_package
 This package read the chassis data and publish.
 
 ## Usage
 ```bash
-roslaunch chassis_info_reader get_chassis.launch
+# sudo chmod 777 /dev/ttyUSB0
+roslaunch chassis_package chassis.launch
 ```
 
 **Configures:**  

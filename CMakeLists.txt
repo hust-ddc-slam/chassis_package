@@ -19,12 +19,12 @@ generate_messages(DEPENDENCIES
 )
 
 catkin_package(
-  INCLUDE_DIRS include
+  INCLUDE_DIRS
   ${catkin_INCLUDE_DIRS}
 )
 
 include_directories(
-  include
+  # include
   ${catkin_INCLUDE_DIRS}
 )
 
